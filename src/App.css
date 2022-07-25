@@ -1,0 +1,19 @@
+.main{
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+  align-items: flex-end;
+  width: 80%;
+  margin: 0% 10%;
+  }
+  .box{
+    width: 20%;
+    margin: 2% 1%;
+    box-shadow: 0 0 10px;
+  }
+  .img-container img{
+    width: 100%;
+  }
+  /* button{
+    text-decoration: none;
+  } */
