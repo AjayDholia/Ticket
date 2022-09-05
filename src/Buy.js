@@ -19,7 +19,7 @@ export default function Buy({ input1 }) {
   },[])
 
   let filterdata = da.filter((d) => {
-    return d.show.id == param.i;
+    return d.show.id === param.i;
   });
 
   return (
