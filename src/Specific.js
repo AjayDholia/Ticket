@@ -8,7 +8,7 @@ export default function({input}) {
     // let [single,sets]=useState("")
     // console.log(single);
     let filterdata = input.filter((d) =>{
-        return d.show.id == param.id
+        return d.show.id === param.id
     })
     console.log(filterdata);
   return (
